@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.header-welesson{
+    height: 70px;
+    background-color: #131331;
+}
+.WeLesson{
+    background-color: rgb(29, 29, 48);
+}
+.header-welesson h1 a{
+    transition: .4s;
+    color: rgb(210, 227, 230);
+}
+.header-welesson h1 a:hover{
+    color:rgb(97, 91, 182);
+}
+.header-welesson ul{
+    float: right;
+}
+.header-welesson ul li{
+    padding: 5px;
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 25px;
+}
+.header-welesson ul li a{
+    transition: 0.3s;
+    color: rgb(217, 237, 240);
+    padding-top: 30px;
+}
+.header-welesson ul li a:hover{
+    color: rgb(5, 8, 41);
+}
+.logo-welesson{
+    width: 160px;
+    height: 35px;
+    padding-top: 1rem;
+}
+a{
+    text-decoration: none;
+    padding-top: 5px;
+}
+.namatpstka-welesson{
+    background-color: rgb(213, 216, 255);
+    color: rgb(8, 8, 36);
+}
+
+.h3-welesson{
+    font-size: 25px;
+}
+.jud-welesson {
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+}
+.button-welesson{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.judu-welesson {
+    text-align: center;
+    padding: 8px;
+    font-size: 22px;
+}
+#submit-welesson {
+    background-color: rgb(44, 9, 44);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    transition: 0.25s;
+    width: 230px;
+    align-items: center;
+    float: right;
+}
+
+#submit-welesson:hover{
+    background-color: rgb(255, 169, 206);
+    color: black;
+}
+
+.judul-pu-welesson p {
+    text-align: center;
+}
+
+.judul-pu-welesson, .judul-pk-welesson, .judul-mbm-welesson, .judul-ve-welesson, .judul-ag-welesson, .judul-lo-welesson, .judul-sp-welesson{
+    margin-top: 3%;
+    flex-basis: 31%;
+    background:white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border-radius: 10px;
+    text-align: justify;
+    
+}
+
+.container-welesson{
+    width: 80%;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.judul-pu-welesson p ul li {
+    text-decoration: none;
+}
+
+.container-welesson::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.mobile-menu-welesson{
+    float: right;
+    display: none;
+    padding: 18px;
+}
+.mobile-menu-welesson:hover{
+    cursor: pointer;
+}
+#check-welesson{
+    display: none;
+}
+.sidebar-welesson{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    width: 300px;
+    transition: 0.5s;
+    z-index: 9999;
+    background-color: #526ce6;
+}
+.sidebar-welesson ul li a{
+    color: blanchedalmond;
+}
+.sidebar-welesson ul li{
+    padding: 24px;
+    transition: .3s;
+}
+.sidebar-welesson ul li:hover{
+    background-color: #764d69;
+
+}
+#check-welesson:checked ~ .sidebar{
+    left: 0;
+}
+.section-welesson{
+    padding: 20px 0;
+}
+.judul-tps-welesson{
+    text-align: center;
+    padding: 30px;
+}
+.judul-tpa-welesson{
+    text-align: center;
+    padding: 30px;
+}
+.section-welesson .h3-welesson{
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+.section-welesson .h3-welesson::before{
+    content:'';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 120px;
+    height: 1px;
+    background-color: palevioletred;
+    left: calc(50% - 60px);
+}
+.section-welesson .h3-welesson::after{
+    content:'';
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    width: 40px;
+    height: 4px;
+    background-color: red;
+    left: calc(50% - 20px);
+}
+#contact-welesson{
+    background-color: rgb(245, 194, 128);
+}
+.pk-welesson .bar-welesson{
+    height: 30px;
+    border: 1px solid orangered;
+    margin-top: 5px 0 20px 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container-slider2 {
+  max-width: 100%;
+  height: 500px;
+  margin: 100px auto 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.slider-materi-indo{
+      padding-top: 8%;
+      padding-left: 18%;
+}
+@media screen and (max-width: 700px){
+  .container-slider {
+    margin: 100px 10px 0;
+  }
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity ease-in-out 0.4s;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.active-anim {
+  opacity: 1;
+}
+
+.btn-slide {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  border: 1px solid rgba(34, 34, 34, 0.287);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-slide img {
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+.prev {
+  top: 50%;
+  left: 20px;
+  transform: translateY(-60%);
+}
+.next {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-60%);
+}
+
+
+.container-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.dot2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 3px solid #f4e2ff;
+  margin: 0 5px;
+  background: #f4e2ff;
+}
+.dot2.active2 {
+  background: rgb(24, 8, 48);
+}
+@media (max-width: 768px){
+    .mobile-menu-welesson{
+        display: block;
+        padding: 10px;
+        font-size: 50px;
+    }
+    .header-welesson ul {
+        display: none;
+    }
+}

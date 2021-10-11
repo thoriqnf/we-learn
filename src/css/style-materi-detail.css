@@ -1,0 +1,420 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+.header-materi {
+  position: fixed;
+  background: #b4cdf1;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+}
+.header-video-materi {
+  position: fixed;
+  background: grey;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+}
+.left-area-materi .h3-left-area {
+  color: rgb(29, 29, 58);
+  margin: 0;
+  font-size: 22px;
+  font-weight: 900;
+  padding-right: 20px;
+}
+.left-area-materi .span-left-area {
+  color: rgb(50, 50, 100);
+}
+.log-out-materi {
+  padding: 10px;
+  background: #1d3a67;
+  text-decoration: none;
+  float: right;
+  margin-top: -35px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+
+.log-out-materi:hover {
+  background: #6084bb;
+}
+.sidebar-materi {
+  margin-top: 70px !important;
+  background: #1d3a67;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: left;
+}
+
+.sidebar-materi .profile-img-materi {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+.sidebar-materi h4 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.sidebar-materi ul{
+  padding-top: 20px;
+}
+.sidebar-materi a {
+  color: white;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+.sidebar-materi a:hover {
+  background: #6084bb;
+}
+.sidebar-materi i {
+  padding-right: 10px;
+}
+.label-materi #sidebar-btn-materi {
+  z-index: 1;
+  color: rgb(29, 29, 58);
+  position: fixed;
+  cursor: pointer;
+  left: 300px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+.label-materi #sidebar-btn-materi:hover {
+  color: white;
+}
+#check-materi:checked ~ .sidebar-materi {
+  left: -190px;
+}
+#check-materi:checked ~ .sidebar-materi a span {
+  display: none;
+}
+#check-materi:checked ~ .sidebar-materi a {
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+.content-materipage {
+  margin-left: 250px;
+  transition: 0.5s;
+}
+#check-materi:checked ~ .content-materipage {
+  margin-left: 60px;
+}
+#check-materi {
+  display: none;
+}
+.slider-materi {
+  width: 850px;
+  height: 500px;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 7rem;
+  padding-left: 8rem;
+}
+.slides-materi{
+  width: 600%;
+  height: 500px;
+  display: flex;
+  padding: 30px;
+  border: 0px solid ;
+  background-color: rgb(52, 66, 112);
+  position: relative;
+  z-index: 1;
+}
+.slide-materi .input-materi {
+  display: none;
+}  
+.slide-materi{
+  width: 20%;
+  transition: 2.2s;
+}
+.slide-materi .slide-content-materi {
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;  
+}
+.navigation-manual-materi{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;  
+}
+.manual-btn-materi{
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn-materi:not(:last-child){
+  margin-right: 40px;
+}
+.manual-btn-materi:hover{
+  background-color: rgb(45, 6, 82);
+}  
+#radio1:checked ~ .first {
+  margin-left: 0;
+}  
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}  
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}  
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}  
+.slide-content-materi h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: white;
+}  
+.slide-content-materi h3 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+}  
+.row-materi {
+  margin-top: 3.5%;
+  display: flex;
+  justify-content: space-around;
+}
+.about-col-materi {
+  flex-basis: 25%;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 10px 7px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  text-align: justify;
+}
+.teks-video-materi {
+  font-size: 26px;
+  text-align: center;
+  padding-left: 7rem;
+  padding-top: 2rem;
+}
+.content-video-materi {
+  transition: 0.5s;
+  padding-left: 8rem;
+  padding-top: 5rem;
+}
+.content-materi {
+  padding-top: 9rem;
+  padding-left: 19rem;
+}
+.content-materi img {
+  width: 1000px;
+  height: 450px;
+}
+.content-video-materi .video-materi {
+  width: 360px;
+  height: 250px;
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+.bagian-cht-video-materi {
+  padding-right: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  float: right;
+}
+.chat-video-materi {
+  background-color: #d2d8e6;
+  padding: 20px;
+  padding-bottom: 8rem;
+  border-radius: 20px;
+}
+.chat-video-materi h1 {
+  font-size: 23px;
+}
+.chat-video-materi h2 {
+  font-size: 18px;
+}
+.text-decoration-materi {
+  text-decoration: none;
+}
+.card3-materi{
+  padding-top: 1rem;
+}
+.card3-materi .table-materi {
+  float: right;
+}
+.card3-materi td {
+  text-align: center;
+  padding: 20px;
+}
+.box-video-materi {
+  background-image: url("../img/wvsmpp.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 450px;
+  height: 520px;
+  background-color: white;
+  border-radius: 10px;
+  float: right;
+  box-shadow: 5px 5px 5px 5px rgba(183, 158, 252, 0.7);
+  padding-bottom: 4rem;
+}
+.videomateriindo {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  justify-content: center;  
+  padding-bottom: 30px;
+}
+.box-video-materi:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.button-vid-materi:hover {
+  background-color: rgb(171, 165, 237);
+  color: black;
+}
+.button-vid-materi {
+  border-radius: 15px;
+  border: solid 2px rgb(213, 213, 213);
+  width: 170px;
+  height: 80px;
+  background-color: rgb(19, 15, 61);
+  font-size: 16px;
+  color: white;
+}
+.text-vid-materi{
+  padding-top: 3rem;
+  color: white;
+  font-size: 25px;
+}
+.text-vid-materi2{
+  padding-top: 1rem;
+  color: rgb(202, 202, 202);
+  font-size: 20px;
+}
+.vid-materi{
+  background-color: rgb(29, 24, 44);
+  width: 600px;
+  height: 500px;
+  color: white;
+}
+.table-video-materi{
+  display: flex;
+  justify-content: center;
+  padding-left: 10rem;
+}
+.active-2-materi {
+  background-color: #6084bb;
+}
+.container-slider {
+  max-width: 950px;
+  height: 550px;
+  margin: 100px auto 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.slider-materi-indo{
+      padding-top: 8%;
+      padding-left: 18%;
+}
+@media screen and (max-width: 700px){
+  .container-slider {
+    margin: 100px 10px 0;
+  }
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity ease-in-out 0.4s;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.active-anim {
+  opacity: 1;
+}
+
+.btn-slide {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  border: 1px solid rgba(34, 34, 34, 0.287);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-slide img {
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+.prev {
+  top: 50%;
+  left: 20px;
+  transform: translateY(-60%);
+}
+.next {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-60%);
+}
+
+
+.container-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #f1f1f1;
+  margin: 0 5px;
+  background: #f1f1f1;
+}
+.dot.active {
+  background: rgb(32, 32, 32);
+}

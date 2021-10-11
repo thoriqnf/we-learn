@@ -1,0 +1,136 @@
+/* STYLE TPSTKA */
+
+.judultpstka {
+    text-align: center;
+    padding-right: 2rem;
+    padding-left: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #2a223f;
+    color: white;
+}
+.log-out-tpstpa {
+    background-color: #ebc5fd;
+    float:right;
+    font-size: 14px;
+    color: black;
+    width: 70px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.log-out-tpstpa:hover {
+    background-color: #9e77af;
+    color: white;
+}
+.btn-tps{
+  padding-top: 2rem;
+}
+.btn-tpa{
+  padding-top: 2rem;
+}
+.rowtpstka {
+  padding: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.about-col-tpstpa {
+  flex-basis: 25%;
+  font-size: 25px;
+  color: black;
+  background-color: rgb(246, 237, 255);
+  border-radius: 10px;
+  padding: 20px;
+  height: 400px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  text-align: center;
+  box-shadow: 4px 4px 4px 4px rgb(166, 116, 186);
+}
+
+  #submit-tpstpa {
+    background-color: rgb(68, 51, 107);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 1px 8px #B4CDF1;
+    cursor: pointer;
+    color: white;
+    height: 42px;
+    transition: 0.25s;
+    width: 240px;
+    align-items: center;
+    font-size: 16px;
+    box-shadow: 3px 3px 3px 3px rgb(115, 123, 194);
+    
+  }
+  #submit-tpstpa:hover {
+    background-color: rgb(251, 182, 255);
+    color: black;
+    box-shadow: 3px 3px 3px 3px rgb(172, 115, 194);
+  }
+  #submit-tpstpa2 {
+    background-color: rgb(68, 51, 107);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 1px 8px #B4CDF1;
+    cursor: pointer;
+    color: white;
+    height: 42px;
+    transition: 0.25s;
+    width: 240px;
+    align-items: center;
+    font-size: 16px;
+    box-shadow: 3px 3px 3px 3px rgb(115, 123, 194);
+    
+  }
+  #submit-tpstpa2:hover {
+    background-color: rgb(251, 182, 255);
+    color: black;
+    box-shadow: 3px 3px 3px 3px rgb(172, 115, 194);
+  }
+  #akhir-tpstpa{
+      text-align: center;
+      padding-top: 100px;
+      padding: 25px;
+      background-color:#2a223f ;
+      color: white;
+  }
+
+  #two-tpstpa {
+    margin-top: 3.5%;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+  }
+  .about-col1-tpstpa {
+    flex-basis: 25%;
+    font-size: 25px;
+    color: black;
+    background-color: rgb(246, 237, 255);
+    border-radius: 10px;
+    padding: 20px;
+    height: 380px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    box-shadow: 4px 4px 4px 4px rgb(166, 116, 186);
+  }
+
+  .about-col2-tpstpa {
+    flex-basis: 25%;
+    font-size: 25px;
+    color: black;
+    background-color: rgb(246, 237, 255);
+    border-radius: 10px;
+    padding: 20px;
+    height: 380px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    box-shadow: 4px 4px 4px 4px rgb(166, 116, 186);
+  }
+  .gb-tps{
+    padding-top: 1rem;
+    width: 280px;
+    height: 190px;
+  }

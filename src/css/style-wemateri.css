@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.header-wemateri{
+    height: 70px;
+}
+.header-wemateri h1{
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 35px;
+    padding-left: 30px;
+}
+.header-wemateri h1 a{
+    transition: .4s;
+    color: white
+}
+.header-wemateri h1 a:hover{
+    color:rgb(145, 32, 71);
+}
+.header-wemateri ul{
+    float: right;
+}
+.header-wemateri ul li{
+    padding: 26px;
+    display: inline-block;
+    font-size: 18px;
+}
+.header-wemateri ul li a{
+    transition: 0.3s;
+    color: white
+}
+.header-wemateri ul li a:hover{
+    color: rgb(145, 32, 71);
+}
+a{
+    text-decoration: none;
+}
+.container-wemateri{
+    width: 90%;
+    margin: 0 auto;
+}
+.container-wemateri:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#banner-wemateri img{
+    padding-left: 3rem;
+    padding-top: 1rem;
+    width: 180px;
+}
+#banner-wemateri{
+    background-image: url("../img/wave-wmat.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 260px;
+}
+.banner-left-wemateri img{
+    width: 450px;
+    float: left;
+    padding-left: 2rem;
+}
+.banner-left2-wemateri img{
+    width: 500px;
+    float: left;
+    padding-left: 3rem;
+}
+.banner-right-wemateri img{
+    width: 400px;
+    float: right;
+    padding-top: 2rem;
+}
+.banner-left-wemateri{
+   padding-bottom: 8rem;
+   padding-top: 1rem;
+}
+.banner-left2-wemateri{
+    padding-bottom: 4rem;
+}
+.banner-right-wemateri{
+    padding-bottom: 4rem;
+}
+.text-banner-smp-wemateri{
+    float: right;
+    padding-top: 5rem;
+    padding-right: 2rem;
+    font-size: 16px;
+}
+.text-banner-smp-right-wemateri{
+    float: left;
+    padding-top: 9rem;
+    padding-left: 1rem;
+    font-size: 12px;
+    font-style: oblique;
+}
+.text-banner-wemateri{
+    float: right;
+    padding-top: 2.5rem;
+    padding-right: 2rem;
+}
+.h2-text-banner-wemateri{
+    font-size: 26px;
+}
+.h3-text-banner-wemateri{
+    font-size: 21px;
+}
+.box-h3-wemateri{
+    float: left;
+    width: 200px;
+    height: 80px;
+    background-color: rgb(53, 12, 53);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(44, 33, 58, 0.8);
+}
+.box-h3-wemateri h3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 11%;
+}
+.ini-box-wemateri{
+    padding-top: 5rem;
+    padding-right: 4rem;
+}
+.box-wemateri{
+    width: 510px;
+    height: 190px;
+    background-color: white;
+    float: right;
+    border: solid 1px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(26, 19, 39, 0.7);
+    color: rgb(0, 0, 0);
+}
+.box-wemateri:hover{
+    background-color: rgb(151, 135, 232);
+    transform: scale(1.1);
+    transition: 1s;
+    color:white;
+}
+#SMP-wemateri{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(23, 26, 68);
+}
+#SMP-wemateri img {
+    float: right;
+    padding-right: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 400px;
+    height: 400px;
+}
+#SMA-wemateri{
+    padding-top: 1rem;
+
+    background-color: white;
+}
+#SMA-wemateri img {
+    float: left;
+    padding-left: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 450px;
+    height: 380px;
+}
+.text-smp-wemateri{
+    padding-top: 11rem;
+    padding-bottom: 2rem;
+    color: white;
+    font-size: 22px;
+}
+.text-sma-wemateri{
+    padding-top: 11rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    color: black;
+    font-size: 22px;
+    float: right;
+}
+.button-wemateri2{
+    float: right;
+    padding-right: 19rem;
+}
+.btn-wemateri{
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 1px 8px #8484da;
+    cursor: pointer;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 52px;
+    transition: 0.25px;
+    width: 260px;
+}
+.btn-wemateri a{
+    color: black;
+    font-size: 17px;
+}
+.btn-wemateri:hover{
+    background-color: rgb(159, 157, 255);
+}
+.btn-wemateri2{
+    background-color: rgb(19, 16, 61);
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 1px 8px #8484da;
+    cursor: pointer;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 52px;
+    transition: 0.25px;
+    width: 260px;
+}
+.btn-wemateri2 a{
+    color: white;
+    font-size: 17px;
+}
+.btn-wemateri2:hover{
+    background-color: rgb(80, 79, 186);
+}
+.card3-wemateri{
+    padding-top: 4rem;
+    padding-right: 7rem;
+    background-color: rgb(208, 188, 253);
+    height: 700px;
+}
+.card3-wemateri table {
+  float: right;
+}
+.card3-wemateri td {
+  text-align: center;
+  padding: 20px;
+}
+.box-kls7-wemateri {
+  background-image: url("../img/wvsmpp.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 330px;
+  height: 520px;
+  background-color: white;
+  border-radius: 20px;
+  float: right;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.7);
+  padding-bottom: 4rem;
+}
+.box-kls8-wemateri {
+  background-image: url("../img/wvsmpp.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 330px;
+  height: 520px;
+  background-color: white;
+  border-radius: 20px;
+  float: right;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.7);
+  padding-bottom: 4rem;
+}
+.box-kls9-wemateri {
+  background-image: url("../img/wvsmpp.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 330px;
+  height: 520px;
+  background-color: white;
+  border-radius: 20px;
+  float: right;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.7);
+  padding-bottom: 4rem;
+}
+.box-kls7-wemateri img {
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.box-kls8-wemateri img {
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.box-kls9-wemateri img {
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.box-kls7-wemateri:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.box-kls8-wemateri:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.box-kls9-wemateri:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.button-kls7-wemateri:hover {
+  background-color: rgb(193, 163, 235);
+  color: black;
+}
+.button-kls7-wemateri {
+  border-radius: 15px;
+  border: solid 2px rgb(213, 213, 213);
+  width: 170px;
+  height: 80px;
+  background-color: rgb(192, 112, 134);
+  font-size: 16px;
+  color: white;
+}
+.button-kls8-wemateri:hover {
+  background-color: rgb(193, 163, 235);
+  color: black;
+}
+.button-kls8-wemateri{
+  border-radius: 15px;
+  border: solid 2px rgb(213, 213, 213);
+  width: 170px;
+  height: 80px;
+  background-color: rgb(192, 112, 134);
+  font-size: 16px;
+  color: white;
+}
+.button-kls9-wemateri:hover {
+  background-color: rgb(193, 163, 235);
+  color: black;
+}
+.button-kls9-wemateri {
+  border-radius: 15px;
+  border: solid 2px rgb(213, 213, 213);
+  width: 170px;
+  height: 80px;
+  background-color: rgb(192, 112, 134);
+  font-size: 16px;
+  color: white;
+}
+.button-kls7-wemateri a{
+    color: white;
+}
+.button-kls8-wemateri a{
+    color: white;
+}
+.button-kls9-wemateri a{
+    color: white;
+}
+.text-kls-wemateri{
+    padding-top: 2rem;
+    color: white;
+    font-size: 25px;
+}
+.text-kls2-wemateri{
+    padding-top: 1rem;
+    color: rgb(202, 202, 202);
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media (max-width: 768px){
+    .mobile-menu{
+        display: block;
+    }
+    .header-wemateri ul {
+        display: none;
+    }
+    .login1{
+        width: 40%;
+        left: 35%;
+    }
+    .col-4-wemateri{
+        width: 50%;
+    }
+    .col-3-wemateri{
+        width: 100%;
+    }
+    #form-wemateri{
+        width: 87%;
+    }
+}

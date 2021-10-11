@@ -1,0 +1,270 @@
+*{
+    margin: 0 auto !important;
+    padding: 0 auto !important;
+    font-family: 'Quicksand', sans-serif;
+}
+.background{
+    background-image: url("../img/bg2.png");
+    background-size: auto;
+    position: relative;
+    background-repeat: repeat;
+    background-position: center;
+}
+.layer-jadwal{
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 40px;
+    top:10% ;
+    width:90%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.19);
+}
+.div-row-jadwal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dua-col-jadwal{
+    padding:10px 10px;
+    transition: 0.5s;
+}
+.dua-col-jadwal:hover{
+    padding-top: 10px;
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.19);
+}
+.button-jadwal{
+    padding: 100px;
+    padding-left: 0;
+}
+.tombol-jadwal{
+    padding: 15px;
+    padding-left: 0;
+}
+.animasi-jadwal{
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+.tombol-aktif-jadwal{
+    padding: 20px 80px;
+    border-radius: 10px;
+    font-family: rubik;
+    font-size: 25px;
+    color : #fff;
+    text-decoration: none;
+}
+.button-aktif-jadwal{
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color : rgb(63, 46, 46);
+    text-decoration: none;
+    float: right;
+    margin-top: 20%;
+}
+.button-aktif-jadwal:active{
+    transform: translate(100px,50px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+    background-color:coral;
+}  
+.ungu-jadwal{
+    background-color:#220FF4;
+    opacity: 41%;;
+    border-bottom: 5px solid indianred;
+    text-shadow: 0px -2px indianred;
+}
+.hijau{
+    background-color:#FFEA79 ;
+    opacity: 80%;
+    box-sizing: border-box;
+    border-bottom: 1px solid#000;
+}
+.tombol-aktif-jadwal:active{
+    transform: translate(100px,50px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}  
+.judul-jadwal{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(63, 46, 46);
+}
+.about-jadwal{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.col-4-jadwal{
+        width: 25%;
+        box-sizing: border-box;
+        padding: 5px;
+        float: left;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 50px;       
+}
+.col-4-jadwal img{
+        padding: 70px;
+        margin: 20px;
+        height: 329px;
+        width: 302px;
+        background:#EEDEFF;
+        border-radius: 50px;
+        box-sizing: border-box;
+        transition: 0.5s;
+}
+.col-4-jadwal a:hover img{
+        transform: scale(1.2);
+}
+.p1-jadwal{
+    text-align: center;
+    padding: 28px;
+    color: bl;
+    font-size: 20px;
+}
+.p2-jadwal{
+    text-align: center;
+    padding: 28px;
+    color: #fff;
+    font-size: 20px;
+}
+.p3-jadwal{
+    text-align: center;
+    padding: 9px;
+    color: black;
+    font-size: 19px;
+}
+.row-jadwal{
+    margin-top: 15%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.gambar-jadwal{
+    float: right;
+}
+.gambar-col-jadwal{
+    flex-basis: 31%;
+    background:khaki;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding:20 px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.sejajar-jadwal{
+    padding-top: 5%;
+    padding-right: 35px;
+}
+
+@media(max-width:700px){
+.row-jadwal{
+        flex-direction: column;
+    }
+}
+.box1-jadwal{
+    width: 600px;
+    height: 170px;
+    background: #8386DD;
+    opacity: 45%;
+    border-radius: 10px;
+    font-size:30px ;
+    text-align: center;
+    padding-top: 20px;
+    padding: inherit;
+}
+.jadwal-col{
+    flex-basis: 31%;
+    background:#c4c6ff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.jadwal-col:hover{
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.19);
+}
+.sejajar-jadwal{
+    display: flex;
+    justify-content:space-between;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+}
+.waktu-col-jadwal{
+    flex-basis: 14%;
+    background:#486383;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    padding:20 px 12px;
+    transition: 0.5s;
+    width: 600px;
+}
+.luar-jadwal{
+    background-image: url("../img/wavess.svg");
+    background-size: cover;
+    background-color: rgb(202, 202, 248);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.dalam-jadwal{
+    position: relative;
+    box-sizing: border-box;
+    width: 90%;
+    height: 70%;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+.putih-jadwal{
+    background-color: #fff;
+    position: relative;
+    height: 100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.awan-jadwal{
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 50px;
+    top:5% ;
+    padding: 50px;
+    width:95%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/wal.png");
+}
+.box2-jadwal{
+    padding-top: 10px;
+    width: 11%;
+    height: 65px;
+    background: #BF6F6F;
+    border-radius: 10px;
+    text-align: center;
+}
+.box3-jadwal{
+    padding-top: 10px;
+    width: 11%;
+    height: 65px;
+    background: #B6A0A0;
+    border-radius: 10px;
+    text-align: center;
+}
+footer {
+    background-color:white;
+    padding-left: 100px;
+}
+footer ul li {
+    display: inline-block;
+    color: black;
+    margin-right: 12px;
+}

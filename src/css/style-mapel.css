@@ -1,0 +1,262 @@
+*{
+    margin: 0 auto !important;
+    padding: 0 auto !important;
+    font-family: 'Quicksand', sans-serif;
+}
+.background{
+    background-image: url("../img/bg2.png");
+    background-size: auto;
+    position: relative;
+    background-repeat: repeat;
+    background-position: center;
+}
+.layer-mapel{
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 40px;
+    top:10% ;
+    width:90%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.19);
+}
+.div-row-mapel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dua-col-mapel{
+    padding:10px 10px;
+    transition: 0.5s;
+}
+.dua-col-mapel:hover{
+    padding-top: 10px;
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.19);
+}
+.button-mapel{
+    padding: 100px;
+    padding-left: 0;
+}
+.tombol-mapel{
+    padding-top: 3rem;
+    padding-left: 0;
+}
+.animasi-mapel{
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+.tombol-aktif-mapel{
+    border-radius: 10px;
+    font-family: rubik;
+    font-size: 25px;
+    color : #fff;
+    text-decoration: none;
+}
+.button-aktif-mapel{
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color : rgb(0, 0, 0);
+    text-decoration: none;
+    margin-top: 20%;
+    background-color: rgb(255, 226, 188);
+    opacity: 90%;
+}
+.button-aktif-mapel:hover{
+    background-color: rgb(73, 64, 51);
+    color: white;
+}
+.button-aktif-mapel:active{
+    transform: translate(100px,50px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+    background-color:coral;
+}  
+.ungu-mapel{
+    background-color:#220FF4;
+    opacity: 41%;;
+    border-bottom: 5px solid indianred;
+    text-shadow: 0px -2px indianred;
+}
+.hijau-mapel{
+    background-color:#FFEA79 ;
+    opacity: 80%;
+    box-sizing: border-box;
+    border-bottom: 1px solid#000;
+}
+.tombol-aktif-mapel:active{
+    transform: translate(100px,50px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}  
+.judul-mapel{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(63, 46, 46);
+}
+.about-mapel{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.col-4-mapel{
+        width: 25%;
+        box-sizing: border-box;
+        padding: 5px;
+        float: left;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 50px;       
+}
+.col-4-mapel img{
+        padding: 70px;
+        margin: 20px;
+        height: 329px;
+        width: 302px;
+        background:#EEDEFF;
+        border-radius: 50px;
+        box-sizing: border-box;
+        transition: 0.5s;
+}
+.col-4-mapel a:hover img{
+        transform: scale(1.2);
+}
+.p1-mapel{
+    text-align: center;
+    padding: 28px;
+    color: bl;
+    font-size: 20px;
+}
+.p2-mapel{
+    text-align: center;
+    padding: 28px;
+    color: #fff;
+    font-size: 20px;
+}
+.p3-mapel{
+    text-align: center;
+    padding: 9px;
+    color: black;
+    font-size: 19px;
+}
+.row-mapel{
+    margin-top: 15%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.gambar-mapel{
+    float: right;
+}
+.gambar-col-mapel{
+    flex-basis: 31%;
+    background:khaki;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding:20 px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.sejajar-mapel{
+    padding-top: 5%;
+    padding-right: 35px;
+}
+
+@media(max-width:700px){
+.row-mapel{
+        flex-direction: column;
+    }
+}
+.box1-mapel{
+    width: 600px;
+    height: 170px;
+    background: #8386DD;
+    opacity: 45%;
+    border-radius: 10px;
+    font-size:30px ;
+    text-align: center;
+    padding-top: 20px;
+    padding: inherit;
+}
+.sejajar-mapel{
+    display: flex;
+    justify-content:space-between;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+}
+.waktu-col-mapel{
+    flex-basis: 14%;
+    background:#486383;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    padding:20 px 12px;
+    transition: 0.5s;
+    width: 600px;
+}
+.lua-mapelr{
+    background-image: url("../img/wavess.svg");
+    background-size: cover;
+    background-color: rgb(202, 202, 248);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.dalam-mapel{
+    position: relative;
+    box-sizing: border-box;
+    width: 90%;
+    height: 70%;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+.putih-mapel{
+    background-color: #fff;
+    position: relative;
+    height: 100%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.awan-mapel{
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 50px;
+    top:5% ;
+    padding: 50px;
+    width:95%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/wal.png");
+}
+.box2-mapel{
+    padding-top: 10px;
+    width: 11%;
+    height: 65px;
+    background: #BF6F6F;
+    border-radius: 10px;
+    text-align: center;
+}
+.box3{
+    padding-top: 10px;
+    width: 11%;
+    height: 65px;
+    background: #B6A0A0;
+    border-radius: 10px;
+    text-align: center;
+}
+.footer-mapel {
+    background-color:white;
+    padding-left: 100px;
+}
+.footer-mapel ul li {
+    display: inline-block;
+    color: black;
+    margin-right: 12px;
+}

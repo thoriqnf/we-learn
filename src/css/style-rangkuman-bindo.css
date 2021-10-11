@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .header-materi {
+    position: fixed;
+    background: #b4cdf1;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+  }
+  .header-video {
+    position: fixed;
+    background: grey;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+  }
+  .left-area h3 {
+    color: rgb(29, 29, 58);
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+  }
+  .left-area span {
+    color: rgb(50, 50, 100);
+  }
+  .log-out {
+    padding: 10px;
+    background: #1d3a67;
+    text-decoration: none;
+    float: right;
+    margin-top: -35px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    transition: 0.5s;
+    border-radius: 20px;
+  }
+  
+  .log-out:hover {
+    background: #6084bb;
+  }
+  .sidebar {
+    background: #1d3a67;
+    margin-top: 70px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    transition: 0.5s;
+    transition-property: left;
+  }
+  
+  .sidebar .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+  }
+  .sidebar h4 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .sidebar a {
+    color: white;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+  }
+  .sidebar a:hover {
+    background: #6084bb;
+  }
+  .sidebar i {
+    padding-right: 10px;
+  }
+  label #sidebar-btn {
+    z-index: 1;
+    color: rgb(29, 29, 58);
+    position: fixed;
+    cursor: pointer;
+    left: 300px;
+    font-size: 20px;
+    margin: 5px 0;
+    transition: 0.5s;
+    transition-property: color;
+  }
+  label #sidebar-btn:hover {
+    color: white;
+  }
+  #check:checked ~ .sidebar {
+    left: -190px;
+  }
+  #check:checked ~ .sidebar a span {
+    display: none;
+  }
+  #check:checked ~ .sidebar a {
+    font-size: 20px;
+    margin-left: 170px;
+    width: 80px;
+  }
+  .content {
+    margin-left: 250px;
+    transition: 0.5s;
+  }
+  #check:checked ~ .content {
+    margin-left: 60px;
+  }
+  #check {
+    display: none;
+  }
+  .slider {
+    width: 850px;
+    height: 500px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 7rem;
+    padding-left: 8rem;
+  }
+  .slides{
+    width: 600%;
+    height: 500px;
+    display: flex;
+    padding: 30px;
+    border: 0px solid ;
+    background-color: rgb(52, 66, 112);
+    position: relative;
+    z-index: 1;
+  }
+  .slides input {
+    display: none;
+  }  
+  .slide{
+    width: 20%;
+    transition: 2.2s;
+  }
+  .slide .slide-content {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;  
+  }
+  .navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;  
+  }
+  .manual-btn{
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  .manual-btn:hover{
+    background-color: rgb(45, 6, 82);
+  }  
+  #radio1:checked ~ .first {
+    margin-left: 0;
+  }  
+  #radio2:checked ~ .first {
+    margin-left: -20%;
+  }  
+  #radio3:checked ~ .first {
+    margin-left: -40%;
+  }  
+  #radio4:checked ~ .first {
+    margin-left: -60%;
+  }  
+  .slide-content h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }  
+  .slide-content h3 {
+      display: block;
+      font-size: 1.5em;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      color: white;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }  
+  .row {
+    margin-top: 3.5%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .materi-col {
+    flex-basis: 90%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: justify;
+  }
+  .teks-video {
+    font-size: 26px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande","Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(173, 169, 255);
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .content-video {
+    margin-left: 250px;
+    transition: 0.5s;
+    padding: 6rem 3rem 0rem 3rem;
+  }
+  .content-materi {
+    padding-top: 9rem;
+    padding-left: 19rem;
+  }
+  .content-materi img {
+    width: 1000px;
+    height: 450px;
+  }
+  .content-video video {
+    width: 360px;
+    height: 250px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+  }
+  .bagian-cht-video {
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    float: right;
+  }
+  .chat-video {
+    background-color: #d2d8e6;
+    padding: 20px;
+    padding-bottom: 8rem;
+    border-radius: 20px;
+  }
+  .chat-video h1 {
+    font-size: 23px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .chat-video h2 {
+    font-size: 18px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .text-decoration {
+    text-decoration: none;
+  }
+  .ini-time {
+    float: right;
+    padding-right: 10rem;
+    padding-top: 20px;
+  }
+  .time {
+    background-color: white;
+    color: #000(253, 230, 230);
+    border: 7px solid rgb(255, 252, 252);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 8px;
+    text-align: center;
+    width: 260px;
+    border-radius: 15px;
+  }
+  .hms {
+    font-size: 20pt;
+  }
+  .ampm {
+    font-size: 18pt;
+  }
+  .date {
+    font-size: 14pt;
+  }
+  .card3{
+    padding-top: 1rem;
+  }
+  .card3 table {
+  float: right;
+  }
+  .card3 td {
+  text-align: center;
+  padding: 20px;
+  }
+  .box-video-materi {
+  background-image: url("../img/wvsmpp.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 470px;
+  height: 520px;
+  background-color: white;
+  border-radius: 20px;
+  float: right;
+  box-shadow: 5px 5px 5px 5px rgba(49, 33, 94, 0.7);
+  padding-bottom: 4rem;
+  }
+  .box-video-materi img {
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  }
+  .box-video-materi:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  }
+  .button-vid-mat:hover {
+  background-color: rgb(19, 15, 61);
+  color: white;
+  }
+  .button-vid-mat {
+  border-radius: 15px;
+  border: solid 2px rgb(213, 213, 213);
+  width: 170px;
+  height: 80px;
+  background-color: rgb(112, 131, 192);
+  font-size: 16px;
+  color: black;
+  }
+  .text-vid-mat{
+    padding-top: 3rem;
+    color: white;
+    font-size: 25px;
+  }
+  .text-vid-mat2{
+    padding-top: 1rem;
+    color: rgb(202, 202, 202);
+    font-size: 20px;
+  }
+  .vid-mat{
+    background-color: rgb(29, 24, 44);
+    width: 600px;
+    height: 500px;
+    color: white;
+  }

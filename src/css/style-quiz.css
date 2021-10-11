@@ -1,0 +1,128 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.QuizBindo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  background-color: rgb(58, 16, 58);
+}
+
+.QuizBindo .card-quiz {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+.card-quiz{
+      display: flex;
+      justify-content: center;
+      width: 600px;
+}
+.card-content-quiz{
+   background-color: white;
+   padding: 30px;
+   border-radius: 10px;
+}
+label.radio {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  padding: 20px
+}
+
+label.radio+.radio {
+  margin-left: 0;
+}
+
+label.radio input {
+  margin-right: 10px;
+}
+.button-quiz{
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(121, 47, 61);
+  border: none;
+  border-radius: 10px;
+}
+.button-quiz:hover{
+  color: white;
+  background-color: rgb(255, 127, 133);
+}
+.button-quiz2{
+  width: 340px;
+  height: 50px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(121, 47, 61);
+  border: none;
+  border-radius: 10px;
+}
+.button-quiz2:hover{
+  color: white;
+  background-color: rgb(255, 127, 133);
+}
+.button-quiz3{
+  width: 270px;
+  height: 50px;
+  font-size: 14px;
+  color: white;
+  background-color: rgb(121, 47, 61);
+  border: none;
+  border-radius: 10px;
+}
+.button-quiz3:hover{
+  color: white;
+  background-color: rgb(255, 127, 133);
+}
+.h1-quiz{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.p-quiz{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.radio{
+  background-color: rgb(211, 211, 211);
+  border-radius: 10px;
+  padding: 10px;
+}
+.radio:active{
+  background-color: rgb(109, 64, 80);
+  color: white;
+}
+.radio:hover{
+  background-color: rgb(109, 64, 80);
+  color: white;
+}
+.modal-card-title{
+      color: white;
+}
+.modal-card-body{
+      color: white;
+}
+.mb-5{
+      font-size: 18px;
+      padding-bottom: 25px;
+}
+.hasil-anda{
+      font-size: 18px;
+}
+.dari{
+      font-size: 18px;
+}
+.persen{
+      font-size: 18px;
+}
+.waktu-anda{
+      font-size: 18px;
+}
+.ini-button-quiz{
+      padding-top: 25px;
+}

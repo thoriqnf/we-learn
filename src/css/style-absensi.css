@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+#absensiii{
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+#absen {
+    background-color: #b2b7ff;
+    border-radius: 8%;
+    box-shadow: 1px 2px 8px #B4CDF1;
+    margin: 0rem auto 2.1rem auto;
+    width: 700px;
+    height: 600px;
+    float: right;
+    border-radius: 8%;
+}
+.background-absensi{
+    background-image: url("../img/ini-waves.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 240px;
+}
+#absensi{
+    letter-spacing: 4px;
+    padding-top: 10rem;
+    text-align: center;
+}
+#card-content-absensi {
+    padding: 5px 40px;
+}
+
+#card-title-absensi {
+    letter-spacing: 4px;
+    padding-bottom: 0rem;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+.underline-title-absensi {
+    background: #071931;
+    height: 2px;
+    width: 89px;
+}
+.absensi-form{
+    padding-right: 50px;
+}
+.form-absensi {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+.form-content-absensi{
+    width: 90%;
+    background: white;
+    border: none;
+    outline: none;
+}
+input{
+    padding-left: 15px;
+    border-radius: 10px;
+}
+.submit-absensi {
+    background: -webkit-radial-gradient(right, #B4CDF1, rgb(253, 254, 255));
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #B4CDF1;
+    cursor: pointer;
+    color: black;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: 0.25s;
+    width: 150px;
+}
+.submit-absensi:hover {
+    background: -webkit-radial-gradient(right, #fdc6ff, rgb(199, 151, 185));
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #c6b4f1;
+    cursor: pointer;
+    color: black;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: 0.25s;
+    width: 150px;
+}
+
+#foto-absensi{
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: whitesmoke;
+    border-radius: 8%;
+    box-shadow: 1px 2px 8px black;
+    background-color: #cbd3ff;
+    border-radius: 8%;
+}
+
+#foto-absensi img{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    padding-top: 50px;
+}
+
+.label-absensi .h1-absensi{
+    font-size: 16px;
+    padding-right: 29rem;
+}
+.label-absensi .h1-absensi2{
+    font-size: 16px;
+    padding-right: 32rem;
+}
+.label-absensi .h1-absensi3{
+    font-size: 16px;
+    padding-right: 29rem;
+}
+.label-absensi .h1-absensi4{
+    font-size: 16px;
+    padding-right: 29rem;
+}
+.label-absensi .h1-absensi5{
+    font-size: 16px;
+    padding-right: 31rem;
+}
+.label-absensi{
+    padding: 10px;
+}
+.select-absensi{
+    border-radius: 10px;
+    width: 93%;
+}

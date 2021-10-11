@@ -1,0 +1,25 @@
+div{
+  padding: 10px
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li{
+  display: inline;
+  padding-right: 10px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius:100%;
+}
+
+.containerStudent {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+} 

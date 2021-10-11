@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "question": "Kalimat penutup surat lamaran pekerjaan yang tepat adalah …",
+      "choices": ["Besar harapan saya Bapak sudi menerimanya.", "Terima kasih atas perhatiannya, semoga saya diterima.", "Jika Bapak berkenan, saya harturkan banyak terima kasih.", "Atas perhatian Bapak, saya mengucapkan terima kasih"],
+      "answer": "Atas perhatian Bapak, saya mengucapkan terima kasih"
+    },
+    {
+      "question": "Hal-hal yang tidak benar mengenai gurindam adalah…",
+      "choices": ["Ditulis pada masa Kerajaan Melayu", "Kata-kata yang biasa dipakai bahasa Melayu", "Kelahirannya diawali dengan soneta", "Gurindam termasuk sastra lama"],
+      "answer": "Kelahirannya diawali dengan soneta"
+    },
+    {
+      "question": "Persamaan gurindam dan pantun kilat adalah…",
+      "choices": ["Baris kedua gurindam berisi kelanjutan dari baris kesatu", "Baris pertama pantun kilat adalah sampiran", "Baris kesatu dan kedua gurindam adalah kalimat majemuk yang dibagi dua", "Baris kesatu gurindam ibarat syarat dan baris kedua ibarat jawaban"],
+      "answer": "Baris kesatu gurindam ibarat syarat dan baris kedua ibarat jawaban"
+    },
+    {
+      "question": "Contoh membaca ekstensif adalah…",
+      "choices": ["Membaca berita", "Membaca kamus", "Membaca naskah drama", "Membaca pidato"],
+      "answer": "Membaca kamus"
+    },
+    {
+      "question": "Tanggapan penolakan di bawah ini yang tepat adalah …",
+      "choices": ["Saya kurang sependapat dengan Bapak karena saya belum yakin tentang hal itu.", "Maaf, hal itu tidak dapat diterima.", "Saya tidak setuju sebab hal itu tidak benar.", "Wah, pendapat itu harus ditolak!"],
+      "answer": "Saya kurang sependapat dengan Bapak karena saya belum yakin tentang hal itu."
+    },
+    {
+      "question": "Di bawah ini termasuk pola menarik kesimpulan kecuali …",
+      "choices": ["Analogi", "Kronologi", "Sebab-akibat", "Akibat-sebab"],
+      "answer": "Kronologi"
+    },
+    {
+      "question": "Di bawah ini adalah pihak-pihak yang terlibat dalam diskusi atau seminar, kecuali …",
+      "choices": ["Moderator", "Pembicara", "Notulis", "Ketua"],
+      "answer": "Ketua"
+    },
+    {
+      "question": "Membuat surat lamaran yang baik dan benar harus ditinjau dari segi ….",
+      "choices": ["Kalimat – kata", "EYD – hal", "Kaitan antarkalimat – hal", "Hal – struktur"],
+      "answer": "Kalimat – kata"
+    },
+    {
+      "question": "Berikut yang bukan persyaratan menulis di media cetak adalah …",
+      "choices": ["Bersifat aktual dan faktual", "Mengandung gagasan sentral yang jelas", "Mengandung materi yang bersifat promosi komersial", "Mengandung unsur ilmiah popular"],
+      "answer": "Mengandung materi yang bersifat promosi komersial"
+    },
+    {
+      "question": "Langkah yang tepat untuk meyakinkan pendengar atas pendapat seseorang pembicara adalah …",
+      "choices": ["Tujuan jelas, berwajah serius, berterus terang.", "Tujuan jelas, memakai kata-kata ilmiah, menggunakan teks.", "Tujuan jelas, membangkitkan semangat, tanpa teks.", "Tujuan jelas, mengemukakan fakta, tidak berbelit-belit (satu tema)"],
+      "answer": "Tujuan jelas, mengemukakan fakta, tidak berbelit-belit (satu tema)"
+    }
+  ]
+}

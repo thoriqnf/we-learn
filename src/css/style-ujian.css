@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+.header-materi-ujian {
+  position: fixed;
+  background-color: rgb(210, 205, 255);
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+  float: right;
+}
+.header-video-ujian {
+  position: fixed;
+  background: grey;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+}
+.left-area-ujian {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+.right-area-ujian {
+  padding-top: 2rem;
+  padding-right: 1rem;
+}
+.sidebar-ujian {
+  background: #1d3a67;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: left;
+  float: left;
+}
+.sidebar2-ujian {
+  padding-top: 2rem;
+}
+.sidebar-ujian .profile-img-ujian {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+.sidebar2-ujian .h3-sidebar2-ujian,
+.h4-sidebar2-ujian {
+  padding: 5px;
+  color: white;
+}
+.sidebar-ujian a {
+  color: white;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.sidebar-ujian a:hover {
+  background: #6084bb;
+}
+.sidebar-ujian i {
+  padding-right: 10px;
+}
+.log-out-ujian {
+  padding: 10px;
+  background: #1d3a67;
+  text-decoration: none;
+  float: right;
+  margin-top: -35px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+.log-out-ujian:hover {
+  background: #6084bb;
+}
+.label-ujian #sidebar-btn-ujian {
+  z-index: 1;
+  color: rgb(29, 29, 58);
+  position: fixed;
+  cursor: pointer;
+  left: 300px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+.label-ujian #sidebar-btn-ujian:hover {
+  color: white;
+}
+#check-ujian:checked ~ .sidebar-ujian {
+  left: -190px;
+}
+#check-ujian:checked ~ .sidebar-ujian a .span-left-area-ujian {
+  display: none;
+}
+#check-ujian:checked ~ .sidebar-ujian a {
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+.content-ujian {
+  padding-bottom: 35px;
+  padding-top: 100px;
+  margin-left: 250px !important;
+  transition: 0.5s;
+  background-color: rgb(210, 205, 255);
+}
+.text-bindo-ujian {
+  width: 100%;
+  height: 140px;
+  background-color: white;
+  border-radius: 20px;
+}
+.text-bindo-ujian h1 {
+  color: black;
+  font-size: 28px;
+  padding-left: 38px;
+  padding-top: 58px;
+}
+.text-decoration-ujian {
+  text-decoration: none;
+}
+.active-2-ujian {
+  background-color: #6084bb;
+}
+#check-ujian:checked ~ .content-ujian {
+  margin-left: 60px;
+}
+#check-ujian {
+  display: none;
+}
+/* .boxx-colom-ujian {
+  padding: 2%;
+} */
+.box-colom-ujian {
+  padding: 30px;
+  
+  width: 100%;
+  height: 280px;
+  background-color: white;
+  border-radius: 30px;
+  margin: 30px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: flex-end; */
+}
+
+.ini-colom1-ujian {
+  padding: 20px;
+}
+.ini-colom2-ujian {
+  padding: 20px;
+}
+.colom1-ujian {
+  padding: 30px;
+  margin: 0px !important;
+  width: 570px;
+  height: 35px;
+  background-color: rgb(58, 53, 68);
+  border-radius: 20px;
+}
+.colom2-ujian {
+  padding-top: 30px;
+  padding: 30px;
+  width: 570px;
+  height: 50px;
+  background-color: rgb(60, 50, 73);
+  border-radius: 20px;
+}
+.colom1-ujian h1 {
+  padding-top: 5px;
+  color: white;
+}
+.colom2-ujian h1 {
+  padding-top: 12px;
+  color: white;
+}
+.tanggal-ujian {
+  font-size: 19px;
+  float: left;
+  padding-left: 2rem;
+}
+.waktu-ujian {
+  font-size: 19px;
+  float: left;
+  padding-left: 4rem;
+}
+.jumlahsoal-ujian {
+  font-size: 19px;
+  float: left;
+  padding-left: 4rem;
+}
+.status-ujian {
+  font-size: 19px;
+  float: left;
+  padding-left: 3rem;
+}
+.tanggal1-ujian {
+  font-size: 18px;
+  float: left;
+  padding-left: 1rem;
+}
+.waktu1-ujian {
+  font-size: 19px;
+  float: left;
+  padding-left: 3rem;
+}
+.jumlahsoal1-ujian {
+  font-size: 19px;
+  float: left;
+  padding-left: 2rem;
+}
+.status1-ujian {
+  font-size: 19px;
+  padding-left: 27rem;
+}
+.kerjakan-ujian {
+  color: black;
+  background-color: rgb(180, 181, 255);
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 1px 8px #2c2c54;
+  cursor: pointer;
+  height: 50px;
+  transition: 0.25px;
+  width: 140px;
+  font-size: 18px;
+}
+.kerjakan-ujian:hover {
+  color: white;
+  background-color: rgb(57, 57, 102);
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 1px 8px #2c2c54;
+  cursor: pointer;
+  height: 50px;
+  transition: 0.25px;
+  width: 140px;
+  font-size: 18px;
+}
+.gif-ujian {
+  float: right;
+  width: 60%;
+  /* height: 310px; */
+  /* padding-right: 60px;
+  padding-top: 70px; */
+}
+
+.gif-box{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+}

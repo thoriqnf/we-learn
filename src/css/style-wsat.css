@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+.container-wsat {
+  width: 100%;
+  height: 695px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.nav-wsat {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0% 0;
+  z-index: 100;
+}
+.nav-wsat img {
+  width: 170px;
+  padding-left: 4rem;
+  padding-top: 2rem;
+}
+.nav-wsat .ul-wsat {
+  flex: 1;
+  text-align: right;
+  padding-right: 13%;
+  float: right;
+}
+.nav-wsat .ul-wsat li {
+  display: inline-block;
+  margin: 0 50px;
+}
+.nav-wsat .ul-wsat li a {
+  text-decoration: none;
+  color: #000;
+}
+.left-col-wsat {
+  flex-basis: 50%;
+  padding: 10% 0% 0;
+  background-color: #383e66;
+}
+.left-col-wsat h1 {
+  text-align: center;
+  font-size: 20px;
+  padding: 19px;
+  padding-bottom: 20px;
+  color: white;
+}
+.right-col-wsat {
+  flex-basis: 40%;
+  padding: 10% 5%;
+  background: white;
+  opacity: 70%;
+  position: relative;
+}
+.right-col-wsat h1 {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(18, 18, 85);
+}
+.back-video-wsat img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 500px;
+  z-index: -100;
+}
+.left-container-wsat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.left-container-wsat .box-wsat {
+  text-align: center;
+  padding: 30px;
+  flex-basis: 70%;
+  background: white;
+  border-radius: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.19);
+}
+
+.left-container-wsat .box-wsat:hover {
+  transform: scale(1.2);
+}
+.box-wsat img {
+  padding: 10px;
+  margin: 5px;
+  height: 50%;
+  width: 100%;
+  background: #eedeff;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+#wsatt {
+  background-color: rgb(14, 9, 48);
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  border: solid white;
+}
+#wsatt a {
+  color: white;
+}
+#wsatt:hover {
+  background-color: rgb(181, 170, 255);
+}
+.button-wsat{
+  padding-right: 5rem;
+}
